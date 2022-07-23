@@ -1,0 +1,224 @@
+:root{
+    --brand-color:#2196F3;
+    --paragraph-color:#212121;
+    --nav-gray: #757575;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    color: #000000;
+}
+
+.logo-header{
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+    color: #000000;
+}
+
+.logo-footer{
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.logo-blue{
+    color: var(--brand-color);
+}
+
+.header-nav{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+    color: var(--paragraph-color);
+}
+
+.active-nav{
+    color: var(--brand-color);
+}
+
+.header-nav:hover{
+    color: var(--brand-color);
+}
+
+.header-nav:focus{
+    color: var(--brand-color);
+}
+
+.header-link{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--nav-gray);
+    text-decoration: none;
+}
+
+.header-link:hover,
+.header-link:focus{
+    color: var(--brand-color);
+}
+
+.main{
+    background-color: #2F303A;
+}
+
+.main-title{
+    color: #ffffff;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+}
+
+.main-button{
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.875;
+    text-align: center;
+    letter-spacing: 0.06em;
+    background-color: var(--brand-color);
+}
+
+.options-title{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--paragraph-color);
+}
+
+.options-subtitle{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--paragraph-color);
+}
+
+.options-text{
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+    color: var(--nav-gray);
+}
+
+.activities-title{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--paragraph-color);
+}
+
+.team{
+    background-color: #F5F4FA;
+}
+
+.team-title{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--paragraph-color);
+}
+
+.team-subtitle{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--paragraph-color);
+}
+
+.team-text{
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--nav-gray);
+}
+
+.contacts{
+    background-color: #2F303A;
+}
+
+.contact-link{
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
+
+}
+
+.adress{
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.contact-link:hover,
+.contact-link:focus,
+.adress:hover,
+.adress:focus{
+    color: var(--brand-color);
+}
+
+.portfolio-button{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;    
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #000000;
+    background-color: #F5F4FA;
+    cursor: pointer;
+}
+
+.portfolio-button:hover,
+.portfolio-button:focus{
+    background-color: var(--brand-color);
+    color: #FFFFFF;
+}
+
+.pictures-title{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: #212121;
+}
+
+.pictures-text{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.03em;
+    color: var(--nav-gray);
+}
+
+.marker{
+    list-style-type: none;
+}
