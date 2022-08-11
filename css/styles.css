@@ -28,7 +28,7 @@ ul {
 
 .header{
     background-color: #ffffff;
-    border: 1px solid #ECECEC;
+    border-bottom: 1px solid #ECECEC;
     padding: 24px 0 24px 0;
 }
 
@@ -195,6 +195,7 @@ body{
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--paragraph-color);
+    margin-bottom: 10px;
 }
 
 .options-text{
@@ -259,7 +260,7 @@ body{
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--paragraph-color);
-    padding-bottom: 50px;
+    margin-bottom: 50px;
 }
 
 .team-subtitle{
@@ -269,6 +270,7 @@ body{
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--paragraph-color);
+    margin-bottom: 10px;
 }
 
 .team-text{
@@ -292,6 +294,10 @@ body{
 .footer-list{
     list-style-type: none;
     text-decoration: none;
+}
+
+.footer-item:not(:last-child){
+    margin-bottom: 9px;
 }
 
 .contact-link{
@@ -330,6 +336,7 @@ body{
     background-color: #F5F4FA;
     cursor: pointer;
     border-radius: 4px;
+    padding: 6px 25px;
 }
 .portfolio-button:hover,
 .portfolio-button:focus{
@@ -343,7 +350,6 @@ body{
     line-height: 2;
     letter-spacing: 0.06em;
     color: #212121;
-    width: 330px;
 }
 
 .pictures-text{
@@ -378,12 +384,16 @@ body{
 
 .pictures-item{
     width: 370px;
-    height: 404px;
     left: 215px;
     top: 262px;
     background: #FFFFFF;
     border: 1px solid #EEEEEE;
     margin-bottom: 30px;
+}
+
+.pictures-item:nth-child(n+7)
+{
+    margin-bottom: 0px;
 }
 
 
